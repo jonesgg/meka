@@ -1,0 +1,6 @@
+# Example configuration file
+# Copy this to terraform.tfvars and modify as needed
+
+aws_region  = "us-east-1"
+project_name = "meka-api"
+environment  = "dev" 
