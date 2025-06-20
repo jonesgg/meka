@@ -13,3 +13,8 @@ output "lambda_function_name" {
   description = "Name of the Lambda function"
   value       = aws_lambda_function.api_lambda.function_name
 }
+
+output "ses_from_email" {
+  description = "Email address configured for sending emails"
+  value       = var.ses_from_email
+}

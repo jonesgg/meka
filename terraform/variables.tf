@@ -14,4 +14,10 @@ variable "environment" {
   description = "Environment name (dev, staging, prod)"
   type        = string
   default     = "dev"
-} 
+}
+
+variable "ses_from_email" {
+  description = "Email address to send emails from (must be verified in SES)"
+  type        = string
+  default     = "noreply@yourdomain.com"
+}

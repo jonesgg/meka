@@ -3,4 +3,8 @@
 
 aws_region  = "us-east-1"
 project_name = "meka-api"
-environment  = "dev" 
+environment  = "dev"
+
+# SES Configuration
+ses_from_email = "noreply@yourdomain.com"
+default_recipient_email = "reports@yourdomain.com" 
